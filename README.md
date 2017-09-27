@@ -1,2 +1,6 @@
-# cheats
-Some tricks and learnings from my experience of using dev tools like emacs, git, linux, etc.
+# Cheats
+
+Cheatsheets for:
+1. Git
+2. Linux installation
+3. Magento 2
