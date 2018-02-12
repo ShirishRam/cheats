@@ -20,3 +20,6 @@ git log --graph
 
 #Cache git credential for a day
 git config --global credential.helper 'cache --timeout=86400'
+
+#Remove all deleted files from git cache: 
+git ls-files --deleted -z | xargs -0 git rm
