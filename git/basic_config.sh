@@ -23,3 +23,13 @@ git config --global credential.helper 'cache --timeout=86400'
 
 #Remove all deleted files from git cache: 
 git ls-files --deleted -z | xargs -0 git rm
+
+#Custom git commands aliases
+#Paste the below configurations in your ~/.gitconfig
+[alias]
+        st = status
+        cm = commit -m
+        ps = push origin
+        pl = pull origin
+        ch = checkout
+        me = merge
